@@ -82,3 +82,45 @@ a{
 span{
     margin: 10px;
 }
+
+/* Locations */
+
+#location{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 500px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+#location .loccontainer{
+    border: 3px solid red;
+    display: flex;
+    
+}
+
+.places{
+    border: 3px solid red;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+/*footer*/
+
+.footer{
+    border: 3px solid red;
+    height: 200px;
+}
+
+/*copyright*/
+
+.copyright{
+    border: 3px solid red;
+    text-align: left;
+    padding-left: 20px;
+}
