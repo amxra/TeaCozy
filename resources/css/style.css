@@ -5,11 +5,20 @@ body{
     background-color: black;
     opacity:0.9;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
 }
 
 /* header */
 
 header{
+    border: 3px solid red;
     display: flex;
     align-items:center;
     position: fixed;
@@ -28,10 +37,12 @@ header{
 }
 
 .logo img {
+    border: 3px solid red;
     height: 50px;
 }
 
 header nav {
+    border: 3px solid red;
     padding-right: 30px;  
 }
 
@@ -43,6 +54,7 @@ a{
 /* Mission */
 
 #mission{
+    border: 3px solid red;
     display: flex;
     background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
     width: 1200px;
@@ -52,6 +64,7 @@ a{
 }
 
 #mission .text{
+    border: 3px solid red;
     background-color: black;
     width: 1200px;
 }
@@ -59,45 +72,79 @@ a{
 /* Menu */
 
 #menu{
+    border: 3px solid yellow;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.menu{
-    display: flex;
-    width: 1000px;
-    flex-flow: row wrap;
-    justify-content: center;  
-}
-
-.menu img{
-    width: 300px;
-    height: 200px;
+    flex-flow: column wrap;
     
 }
 
-span{
-    margin: 10px;
+.menu{
+    border: 3px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 1000px;
 }
+
+.menu img{
+    border: 3px solid green;
+    width: 300px;
+    height: 200px;
+    margin-bottom:10px;
+}
+
+.menu span{
+    border: 3px solid red;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Locations */
 
 #location{
+    border: 3px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
     height: 500px;
     background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
 }
 
 #location .loccontainer{
+    border: 3px solid red;
     display: flex;
     
 }
 
 .places{
+    border: 3px solid red;
     width: 300px;
     margin-top: 15px;
     margin-right: 40px;
@@ -108,12 +155,14 @@ span{
 /*footer*/
 
 .footer{
+    border: 3px solid red;
     height: 200px;
 }
 
 /*copyright*/
 
 .copyright{
+    border: 3px solid red;
     text-align: left;
     padding-left:20px;
 }
